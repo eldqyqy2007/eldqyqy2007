@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🛡️ Mohammed Eldqyqy
+# 🛡️ eldqyqy
 
 ### Offensive Security | Penetration Testing | Red Teaming
 
