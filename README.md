@@ -98,10 +98,44 @@ Currently deepening my skills across Web, Mobile, Active Directory, Network, and
 
 <br>
 
+## 🔥 Streak Stats
+
+<div align="center">
+
+
+
+![Streak](https://github-readme-streak-stats.herokuapp.com/?user=eldqyqy2007&theme=github-dark-blue&hide_border=true&background=0D1117)
+
+
+
+</div>
+
+<br>
+
+## 🏅 GitHub Trophies
+
+<div align="center">
+
+
+
+![Trophies](https://github-profile-trophy.vercel.app/?username=eldqyqy2007&theme=darkhub&no-frame=true&row=1&column=6)
+
+
+
+</div>
+
+<br>
+
 ## 📫 Connect With Me
 
 <p align="center">
 <a href="https://www.linkedin.com/in/mohammed-eldqyqy"><img src="https://img.shields.io/badge/LinkedIn-0D1117?style=for-the-badge&logo=linkedin&logoColor=0A66C2" alt="LinkedIn"/></a>
 <a href="https://x.com/eldqyqy"><img src="https://img.shields.io/badge/X-0D1117?style=for-the-badge&logo=x&logoColor=white" alt="X"/></a>
 <a href="mailto:eldqyqy170@gmail.com"><img src="https://img.shields.io/badge/Email-0D1117?style=for-the-badge&logo=gmail&logoColor=EA4335" alt="Email"/></a>
+</p>
+
+<br>
+
+<p align="center">
+<img src="https://komarev.com/ghpvc/?username=eldqyqy2007&style=for-the-badge&color=0D1117" alt="Profile Views"/>
 </p>
