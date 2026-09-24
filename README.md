@@ -5,7 +5,7 @@
 ### Bug Hunter | Penetration Tester
 
 Security-focused developer building Python tools for offensive security workflows.
-Currently deepening my skills across Web, Mobile, Active Directory, Network, and AI-driven pentesting.
+Currently deepening my skills across Web, Mobile, Active Directory, Network, and AI/LLM pentesting.
 
 📍 Egypt
 
