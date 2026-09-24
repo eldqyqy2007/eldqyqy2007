@@ -6,7 +6,7 @@
 
 **Bug Hunter • Penetration Tester • Cybersecurity Engineer • Red Teamer**
 
-Web Application Security • API Security • Mobile Security • Active Directory • Network Security • AI/LLM Security
+Web Application Security • API Security • Mobile Application Security • Active Directory • Network Security • AI/LLM Security
 
 [![GitHub](https://img.shields.io/badge/GitHub-0D1117?style=for-the-badge&logo=github&logoColor=white)](https://github.com/eldqyqy2007)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0D1117?style=for-the-badge&logo=linkedin&logoColor=0A66C2)](https://www.linkedin.com/in/mohammed-eldqyqy)
