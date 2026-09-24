@@ -8,6 +8,7 @@
 
 Web Application Security • API Security • Mobile Security • Active Directory • Network Security • AI/LLM Security
 
+[![GitHub](https://img.shields.io/badge/GitHub-0D1117?style=for-the-badge&logo=github&logoColor=white)](https://github.com/eldqyqy2007)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0D1117?style=for-the-badge&logo=linkedin&logoColor=0A66C2)](https://www.linkedin.com/in/mohammed-eldqyqy)
 [![X](https://img.shields.io/badge/X-0D1117?style=for-the-badge&logo=x&logoColor=white)](https://x.com/eldqyqy)
 
@@ -130,9 +131,9 @@ Planned areas include:
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=eldqyqy2007&show_icons=true&hide_border=true&theme=github_dark&rank_icon=github&include_all_commits=true" height="170"/>
+<img src="https://github-readme-stats.vercel.app/api?username=eldqyqy2007&show_icons=true&hide_border=true&theme=github_dark&rank_icon=github&include_all_commits=true&count_private=true" height="170"/>
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=eldqyqy2007&layout=compact&hide_border=true&theme=github_dark&langs_count=8" height="170"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=eldqyqy2007&layout=compact&hide_border=true&theme=github_dark&langs_count=8&count_private=true" height="170"/>
 
 </div>
 
@@ -140,7 +141,7 @@ Planned areas include:
 
 <div align="center">
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=eldqyqy2007&theme=github-dark-blue&hide_border=true" />
+<img src="https://streak-stats.demolab.com/?user=eldqyqy2007&theme=github-dark-blue&hide_border=true&date_format=%5BY.%5Dn.j" />
 
 </div>
 
@@ -173,10 +174,6 @@ Planned areas include:
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0D1117?style=for-the-badge&logo=linkedin&logoColor=0A66C2)](https://www.linkedin.com/in/mohammed-eldqyqy)
 [![X](https://img.shields.io/badge/X-0D1117?style=for-the-badge&logo=x&logoColor=white)](https://x.com/eldqyqy)
 [![Email](https://img.shields.io/badge/Email-0D1117?style=for-the-badge&logo=gmail&logoColor=EA4335)](mailto:eldqyqy170@gmail.com)
-
-<br>
-
-![Profile Views](https://komarev.com/ghpvc/?username=eldqyqy2007&style=for-the-badge&color=0D1117)
 
 </div>
 
