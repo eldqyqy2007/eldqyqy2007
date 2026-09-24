@@ -1,16 +1,121 @@
-## Hi there 👋
+<div align="center">
 
-<!--
-**eldqyqy2007/eldqyqy2007** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+# 🛡️ Mohammed Eldqyqy
 
-Here are some ideas to get you started:
+### Bug Hunter | Penetration Tester
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+Security-focused developer building Python tools for offensive security workflows.
+Currently deepening my skills across Web, Mobile, Active Directory, Network, and AI-driven pentesting.
+
+📍 Egypt
+
+</div>
+
+<br>
+
+## 🎯 Focus Areas
+
+
+
+![Web App Security](https://img.shields.io/badge/Web%20App%20Security-0D1117?style=for-the-badge&logo=owasp&logoColor=E33332)
+
+
+
+
+![Mobile App Security](https://img.shields.io/badge/Mobile%20App%20Security-0D1117?style=for-the-badge&logo=android&logoColor=3DDC84)
+
+
+
+
+![Active Directory](https://img.shields.io/badge/Active%20Directory-0D1117?style=for-the-badge&logo=microsoft&logoColor=00A4EF)
+
+
+
+
+![Network Pentesting](https://img.shields.io/badge/Network%20Pentesting-0D1117?style=for-the-badge&logo=cisco&logoColor=1BA0D7)
+
+
+
+
+![AI Pentesting](https://img.shields.io/badge/AI%2FLLM%20Pentesting-0D1117?style=for-the-badge&logo=openai&logoColor=white)
+
+
+
+<br>
+
+## 🧰 Tools & Stack
+
+
+
+![Python](https://img.shields.io/badge/Python-0D1117?style=for-the-badge&logo=python&logoColor=3776AB)
+
+
+
+
+![Linux](https://img.shields.io/badge/Linux-0D1117?style=for-the-badge&logo=linux&logoColor=FCC624)
+
+
+
+
+![Burp Suite](https://img.shields.io/badge/Burp%20Suite-0D1117?style=for-the-badge&logo=burpsuite&logoColor=FF6633)
+
+
+
+
+![Nmap](https://img.shields.io/badge/Nmap-0D1117?style=for-the-badge&logo=nmap&logoColor=4682B4)
+
+
+
+
+![Git](https://img.shields.io/badge/Git-0D1117?style=for-the-badge&logo=git&logoColor=F05032)
+
+
+
+<br>
+
+## 🏆 Training Platforms
+
+> Building my profile on **TryHackMe** and **HackTheBox** — link will be added here soon.
+
+<br>
+
+## 📊 GitHub Stats
+
+<div align="center">
+
+
+
+![Stats](https://github-readme-stats.vercel.app/api?username=eldqyqy2007&show_icons=true&theme=github_dark&hide_border=true&bg_color=0D1117)
+
+
+
+
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=eldqyqy2007&layout=compact&theme=github_dark&hide_border=true&bg_color=0D1117)
+
+
+
+</div>
+
+<br>
+
+## 📫 Connect With Me
+
+<div align="center">
+
+[
+
+![LinkedIn](https://img.shields.io/badge/LinkedIn-0D1117?style=for-the-badge&logo=linkedin&logoColor=0A66C2)
+
+](https://www.linkedin.com/in/mohammed-eldqyqy) [
+
+![X](https://img.shields.io/badge/X-0D1117?style=for-the-badge&logo=x&logoColor=white)
+
+](https://x.com/eldqyqy) [
+
+![Email](https://img.shields.io/badge/Email-0D1117?style=for-the-badge&logo=gmail&logoColor=EA4335)
+
+](mailto:eldqyqy170@gmail.com)
+
+</div>
+
+</div>
