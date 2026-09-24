@@ -2,140 +2,188 @@
 
 # 🛡️ Mohammed Eldqyqy
 
-### Bug Hunter | Penetration Tester
+### Offensive Security | Penetration Testing | Red Teaming
 
-Security-focused developer building Python tools for offensive security workflows.
-Currently deepening my skills across Web, Mobile, Active Directory, Network, and AI/LLM pentesting.
+**Bug Hunter • Penetration Tester • Cybersecurity Engineer • Red Teamer**
 
-📍 Egypt
+Web Application Security • API Security • Mobile Security • Active Directory • Network Security • AI/LLM Security
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0D1117?style=for-the-badge&logo=linkedin&logoColor=0A66C2)](https://www.linkedin.com/in/mohammed-eldqyqy)
+[![X](https://img.shields.io/badge/X-0D1117?style=for-the-badge&logo=x&logoColor=white)](https://x.com/eldqyqy)
 
 </div>
 
-<br>
+---
 
-## 🎯 Focus Areas
+## 👋 About Me
 
+I'm Mohammed Eldqyqy, an offensive-security focused learner building practical skills in penetration testing, bug hunting, red teaming, and security research.
 
+My current focus is on **Web, API, Mobile, Active Directory, Network, and AI/LLM security** while continuously improving my programming, operating-system, networking, and exploitation skills.
 
-![Web App Security](https://img.shields.io/badge/Web%20App%20Security-0D1117?style=for-the-badge&logo=owasp&logoColor=E33332)
+> My GitHub is being transitioned toward cybersecurity. Some older repositories are not security-related and were created before my current offensive-security focus.
 
+---
 
+## 🎯 Offensive Security Focus
 
+| Domain | Focus |
+|---|---|
+| 🌐 Web Security | Web application pentesting, vulnerability research, bug bounty |
+| 🔌 API Security | REST/GraphQL API testing, authentication and authorization |
+| 📱 Mobile Security | Android application security, dynamic/static analysis |
+| 🏢 Active Directory | Windows/AD enumeration, attacks, privilege escalation |
+| 🌐 Network Security | Network enumeration, service exploitation, traffic analysis |
+| 🔴 Red Teaming | Adversary simulation, C2, Windows tradecraft |
+| 🤖 AI/LLM Security | Prompt injection, LLM application testing, AI red teaming |
+| 🔬 Research | Reverse engineering, exploit development, security tooling |
 
-![Mobile App Security](https://img.shields.io/badge/Mobile%20App%20Security-0D1117?style=for-the-badge&logo=android&logoColor=3DDC84)
+---
 
+## 💻 Languages & Technologies
 
+[![Python](https://skillicons.dev/icons?i=python)](https://www.python.org/)
+[![Bash](https://skillicons.dev/icons?i=bash)](https://www.gnu.org/software/bash/)
+[![C++](https://skillicons.dev/icons?i=cpp)](https://isocpp.org/)
+[![JavaScript](https://skillicons.dev/icons?i=javascript)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[![HTML](https://skillicons.dev/icons?i=html)](https://developer.mozilla.org/en-US/docs/Web/HTML)
+[![CSS](https://skillicons.dev/icons?i=css)](https://developer.mozilla.org/en-US/docs/Web/CSS)
+[![PHP](https://skillicons.dev/icons?i=php)](https://www.php.net/)
+[![MySQL](https://skillicons.dev/icons?i=mysql)](https://www.mysql.com/)
+[![MongoDB](https://skillicons.dev/icons?i=mongodb)](https://www.mongodb.com/)
+[![Linux](https://skillicons.dev/icons?i=linux)](https://www.linux.org/)
+[![Git](https://skillicons.dev/icons?i=git)](https://git-scm.com/)
 
+---
 
-![Active Directory](https://img.shields.io/badge/Active%20Directory-0D1117?style=for-the-badge&logo=microsoft&logoColor=00A4EF)
+## 🧰 Security Tooling
 
+### 🌐 Web & API
+Burp Suite • OWASP ZAP • Nuclei • ffuf • Gobuster • SQLMap • Postman
 
+### 🔎 Recon & Network
+Nmap • Masscan • Amass • Subfinder • httpx • Wireshark • Netcat
 
+### 🏢 Active Directory & Windows
+BloodHound • Impacket • NetExec • Rubeus • Mimikatz • Responder
 
-![Network Pentesting](https://img.shields.io/badge/Network%20Pentesting-0D1117?style=for-the-badge&logo=cisco&logoColor=1BA0D7)
+### 🔴 Red Team & Exploitation
+Metasploit • Sliver • Cobalt Strike • PowerShell • Empire
 
+### 🔬 Reverse Engineering
+Ghidra • IDA • x64dbg • WinDbg • PE-bear
 
+### 📱 Mobile Security
+MobSF • Frida • Objection • ADB • JADX
 
+### 🤖 AI / LLM Security
+LLM application testing • Prompt injection testing • AI red teaming • API security testing
 
-![AI Pentesting](https://img.shields.io/badge/AI%2FLLM%20Pentesting-0D1117?style=for-the-badge&logo=openai&logoColor=white)
+---
 
+## 📚 Training & Learning
 
+> **Training / learning completed or studied — not presented as certifications unless officially earned.**
 
-<br>
+- **Security+** — CompTIA curriculum
+- **Network+** — CompTIA curriculum
+- **eJPTv2** — Hossam Shady / RedNexus Academy
+- **Red Teaming Diploma** — Hossam Shady / RedNexus Academy
+- **Advanced Bug Bounty Secrets** — Hossam Shady / RedNexus Academy
+- **OSCP Training** — Hossam Shady / RedNexus Academy
+- **AI Red Teaming** — Hossam Shady / RedNexus Academy
 
-## 🧰 Tools & Stack
+---
 
+## 🧪 Labs & Practice
 
+Currently building practical experience through:
 
-![Python](https://img.shields.io/badge/Python-0D1117?style=for-the-badge&logo=python&logoColor=3776AB)
+- Web & API security labs
+- Mobile security labs
+- Active Directory environments
+- Network penetration testing
+- Red-team tradecraft
+- AI/LLM security testing
+- Security automation with Python and Bash
 
+---
 
+## 🚀 Projects
 
+I'm gradually building a cybersecurity-focused portfolio around practical tools, automation, research, and write-ups.
 
-![Linux](https://img.shields.io/badge/Linux-0D1117?style=for-the-badge&logo=linux&logoColor=FCC624)
+Planned areas include:
 
+- 🔎 Recon & enumeration tooling
+- 🌐 Web pentesting utilities
+- 🔌 API security tooling
+- 🏢 Active Directory tooling
+- 🌐 Network pentesting utilities
+- 📱 Mobile security tooling
+- 🤖 AI/LLM security tooling
+- 📝 Security research & write-ups
 
+---
 
-
-![Burp Suite](https://img.shields.io/badge/Burp%20Suite-0D1117?style=for-the-badge&logo=burpsuite&logoColor=FF6633)
-
-
-
-
-![Nmap](https://img.shields.io/badge/Nmap-0D1117?style=for-the-badge&logo=nmap&logoColor=4682B4)
-
-
-
-
-![Git](https://img.shields.io/badge/Git-0D1117?style=for-the-badge&logo=git&logoColor=F05032)
-
-
-
-<br>
-
-## 🏆 Training Platforms
-
-> Building my profile on **TryHackMe** and **HackTheBox** — link will be added here soon.
-
-<br>
-
-## 📊 GitHub Stats
+## 📊 GitHub Analytics
 
 <div align="center">
 
+<img src="https://github-readme-stats.vercel.app/api?username=eldqyqy2007&show_icons=true&hide_border=true&theme=github_dark&rank_icon=github&include_all_commits=true" height="170"/>
 
-
-![Stats](https://github-readme-stats.vercel.app/api?username=eldqyqy2007&show_icons=true&theme=github_dark&hide_border=true&bg_color=0D1117)
-
-
-
-
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=eldqyqy2007&layout=compact&theme=github_dark&hide_border=true&bg_color=0D1117)
-
-
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=eldqyqy2007&layout=compact&hide_border=true&theme=github_dark&langs_count=8" height="170"/>
 
 </div>
 
 <br>
-
-## 🔥 Streak Stats
 
 <div align="center">
 
-
-
-![Streak](https://github-readme-streak-stats.herokuapp.com/?user=eldqyqy2007&theme=github-dark-blue&hide_border=true&background=0D1117)
-
-
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=eldqyqy2007&theme=github-dark-blue&hide_border=true" />
 
 </div>
 
-<br>
+---
 
-## 🏅 GitHub Trophies
+## 🏆 GitHub Trophies
 
 <div align="center">
 
-
-
-![Trophies](https://github-profile-trophy.vercel.app/?username=eldqyqy2007&theme=darkhub&no-frame=true&row=1&column=6)
-
-
+<img src="https://github-profile-trophy.vercel.app/?username=eldqyqy2007&theme=darkhub&no-frame=true&margin-w=10&row=2&column=6" />
 
 </div>
 
-<br>
+---
+
+## 📈 Contribution Activity
+
+<div align="center">
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=eldqyqy2007&theme=github-compact&hide_border=true&area=true" />
+
+</div>
+
+---
 
 ## 📫 Connect With Me
 
-<p align="center">
-<a href="https://www.linkedin.com/in/mohammed-eldqyqy"><img src="https://img.shields.io/badge/LinkedIn-0D1117?style=for-the-badge&logo=linkedin&logoColor=0A66C2" alt="LinkedIn"/></a>
-<a href="https://x.com/eldqyqy"><img src="https://img.shields.io/badge/X-0D1117?style=for-the-badge&logo=x&logoColor=white" alt="X"/></a>
-<a href="mailto:eldqyqy170@gmail.com"><img src="https://img.shields.io/badge/Email-0D1117?style=for-the-badge&logo=gmail&logoColor=EA4335" alt="Email"/></a>
-</p>
+<div align="center">
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0D1117?style=for-the-badge&logo=linkedin&logoColor=0A66C2)](https://www.linkedin.com/in/mohammed-eldqyqy)
+[![X](https://img.shields.io/badge/X-0D1117?style=for-the-badge&logo=x&logoColor=white)](https://x.com/eldqyqy)
+[![Email](https://img.shields.io/badge/Email-0D1117?style=for-the-badge&logo=gmail&logoColor=EA4335)](mailto:eldqyqy170@gmail.com)
 
 <br>
 
-<p align="center">
-<img src="https://komarev.com/ghpvc/?username=eldqyqy2007&style=for-the-badge&color=0D1117" alt="Profile Views"/>
-</p>
+![Profile Views](https://komarev.com/ghpvc/?username=eldqyqy2007&style=for-the-badge&color=0D1117)
+
+</div>
+
+---
+
+<div align="center">
+
+**Offensive Security • Research • Build • Learn**
+
+</div>
