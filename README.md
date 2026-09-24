@@ -156,9 +156,17 @@ Planned areas include:
 
 <div align="center">
 
+[![GitHub Streak](https://streak-stats.demolab.com/?user=eldqyqy2007&theme=github-dark-blue&hide_border=true&locale=en&timezone=Africa%2FCairo&date_format=j%2Fn%2FY)](https://github.com/eldqyqy2007)
+
+</div>
+
+<br>
+
+<div align="center">
+
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./profile/activity-consistency-wide-dark.svg">
-  <img src="./profile/activity-consistency-wide-light.svg" alt="GitHub contribution activity and streak" width="820">
+  <img src="./profile/activity-consistency-wide-light.svg" alt="GitHub contribution activity" width="820">
 </picture>
 
 </div>
