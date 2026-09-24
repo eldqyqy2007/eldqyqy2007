@@ -100,22 +100,8 @@ Currently deepening my skills across Web, Mobile, Active Directory, Network, and
 
 ## 📫 Connect With Me
 
-<div align="center">
-
-[
-
-![LinkedIn](https://img.shields.io/badge/LinkedIn-0D1117?style=for-the-badge&logo=linkedin&logoColor=0A66C2)
-
-](https://www.linkedin.com/in/mohammed-eldqyqy) [
-
-![X](https://img.shields.io/badge/X-0D1117?style=for-the-badge&logo=x&logoColor=white)
-
-](https://x.com/eldqyqy) [
-
-![Email](https://img.shields.io/badge/Email-0D1117?style=for-the-badge&logo=gmail&logoColor=EA4335)
-
-](mailto:eldqyqy170@gmail.com)
-
-</div>
-
-</div>
+<p align="center">
+<a href="https://www.linkedin.com/in/mohammed-eldqyqy"><img src="https://img.shields.io/badge/LinkedIn-0D1117?style=for-the-badge&logo=linkedin&logoColor=0A66C2" alt="LinkedIn"/></a>
+<a href="https://x.com/eldqyqy"><img src="https://img.shields.io/badge/X-0D1117?style=for-the-badge&logo=x&logoColor=white" alt="X"/></a>
+<a href="mailto:eldqyqy170@gmail.com"><img src="https://img.shields.io/badge/Email-0D1117?style=for-the-badge&logo=gmail&logoColor=EA4335" alt="Email"/></a>
+</p>
