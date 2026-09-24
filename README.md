@@ -186,7 +186,7 @@ Planned areas include:
 
 ---
 
-## 📫 Connect With Me
+## 📫 Contact With Me
 
 <div align="center">
 
