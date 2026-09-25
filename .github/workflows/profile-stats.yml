@@ -106,17 +106,18 @@ jobs:
           with urllib.request.urlopen(req, timeout=30) as response:
               svg = response.read().decode("utf-8", "replace")
 
-          pattern = re.compile(
-              r'(<text[^>]*>)(\d+)(</text>\s*<text[^>]*>\s*Current Streak\s*</text>)',
-              re.I | re.S,
-          )
-          svg, changed = pattern.subn(
-              lambda m: m.group(1) + str(current) + m.group(3),
-              svg,
-              count=1,
-          )
-          if changed != 1:
+          label_match = re.search(r'>\s*Current Streak\s*<', svg, re.I)
+          if not label_match:
+              raise SystemExit("Could not locate Current Streak label")
+
+          before = svg[:label_match.start()]
+          number_match = list(re.finditer(r'>\s*(\d+)\s*<', before))
+          if not number_match:
               raise SystemExit("Could not locate Current Streak value")
+
+          value_match = number_match[-1]
+          start, end = value_match.span(1)
+          svg = svg[:start] + str(current) + svg[end:]
 
           with open("profile/streak.svg", "w", encoding="utf-8") as f:
               f.write(svg)
