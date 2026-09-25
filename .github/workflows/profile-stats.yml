@@ -22,6 +22,13 @@ jobs:
     steps:
       - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd
 
+      - name: Generate self-hosted streak card
+        uses: zients/github-readme-streak-stats@v2
+        with:
+          options: user=${{ github.repository_owner }}&theme=dark&hide_border=true&locale=en&date_format=j/n/Y&disable_animations=true
+          path: profile/streak.svg
+          token: ${{ github.token }}
+
       - uses: shinpr/github-profile-stats@49b5f7091182a45f3ef93923505b660c6da5f835
         id: signal
         with:
@@ -166,6 +173,7 @@ jobs:
           test -s profile/signal-field-wide-dark.svg
           test -s profile/activity-consistency-wide-dark.svg
           test -s profile/language-composition-wide-dark.svg
+          test -s profile/streak.svg
           git add profile/*.svg
           if git diff --cached --quiet; then
             exit 0
