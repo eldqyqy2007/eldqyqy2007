@@ -43,6 +43,116 @@ jobs:
           token: ${{ github.token }}
           profile: language-composition
 
+      - name: Sync contribution data with GitHub profile calendar
+        run: |
+          python - <<'PY'
+          import html
+          import pathlib
+          import re
+          import urllib.request
+          from datetime import date
+
+          user = "eldqyqy2007"
+          url = f"https://github.com/users/{user}/contributions"
+          req = urllib.request.Request(url, headers={"User-Agent": "github-profile-stats/1.0"})
+          with urllib.request.urlopen(req, timeout=30) as response:
+              page = response.read().decode("utf-8", "replace")
+
+          days = {}
+          cell_re = re.compile(
+              r'<td\b[^>]*\bdata-date="([^"]+)"[^>]*\bid="([^"]+)"[^>]*\bdata-level="([0-4])"[^>]*>',
+              re.I | re.S
+          )
+          for match in cell_re.finditer(page):
+              day, cell_id, level = match.groups()
+              tip_re = re.compile(
+                  r'<tool-tip\b[^>]*\bfor="' + re.escape(cell_id) + r'"[^>]*>(.*?)</tool-tip>',
+                  re.I | re.S
+              )
+              tip = tip_re.search(page)
+              count = 0
+              if tip:
+                  text = html.unescape(re.sub(r"<[^>]+>", " ", tip.group(1)))
+                  count_match = re.search(r"(\d[\d,]*)\s+contributions?", text, re.I)
+                  if count_match:
+                      count = int(count_match.group(1).replace(",", ""))
+              days[day] = (count, int(level))
+
+          if not days:
+              raise SystemExit("Could not read GitHub contribution calendar")
+
+          def patch_card(path):
+              p = pathlib.Path(path)
+              s = p.read_text(encoding="utf-8")
+
+              palette = {}
+              for level in range(5):
+                  m = re.search(
+                      rf'<rect[^>]*data-level="{level}"[^>]*fill="(#[0-9A-Fa-f]{{6}})"',
+                      s
+                  )
+                  if m:
+                      palette[level] = m.group(1)
+
+              def patch_day(m):
+                  tag = m.group(0)
+                  day = m.group(1)
+                  count, level = days.get(day, (0, 0))
+                  tag = re.sub(r'data-count="\d+"', f'data-count="{count}"', tag)
+                  tag = re.sub(r'data-level="\d+"', f'data-level="{level}"', tag)
+                  if level in palette:
+                      tag = re.sub(r'fill="#[0-9A-Fa-f]{6}"', f'fill="{palette[level]}"', tag, count=1)
+                  return tag
+
+              s = re.sub(r'<rect[^>]*data-date="([^"]+)"[^>]*/>', patch_day, s)
+
+              card_dates = sorted(set(re.findall(r'data-date="([^"]+)"', s)) & set(days))
+              active = [d for d in card_dates if days[d][0] > 0]
+              total = sum(days[d][0] for d in card_dates)
+              active_days = len(active)
+
+              longest = current = 0
+              previous = None
+              for d in active:
+                  if previous is not None and (date.fromisoformat(d) - date.fromisoformat(previous)).days == 1:
+                      current += 1
+                  else:
+                      current = 1
+                  longest = max(longest, current)
+                  previous = d
+
+              latest = card_dates[-1] if card_dates else None
+              if latest in days and days[latest][0] > 0:
+                  current = 1
+                  i = len(active) - 2
+                  while i >= 0 and (date.fromisoformat(active[i + 1]) - date.fromisoformat(active[i])).days == 1:
+                      current += 1
+                      i -= 1
+              else:
+                  current = 0
+
+              if "activity-consistency" in path:
+                  s = re.sub(r'(<text x="28" y="130"[^>]*>)[^<]+(</text>)', rf'\g<1>{active_days}\g<2>', s, count=1)
+                  s = re.sub(r'(<text x="320" y="105"[^>]*>)[^<]+(</text>)', rf'\g<1>{current}\g<2>', s, count=1)
+                  s = re.sub(r'(<text x="490" y="105"[^>]*>)[^<]+(</text>)', rf'\g<1>{longest}\g<2>', s, count=1)
+                  s = re.sub(r'\d[\d,]* CONTRIBUTIONS · PAST YEAR', f'{total:,} CONTRIBUTIONS · PAST YEAR', s)
+                  s = re.sub(r'[0-9,]+ active days; [0-9]+-day current streak; [0-9]+-day longest streak; [0-9,]+ contributions\.',
+                             f'{active_days} active days; {current}-day current streak; {longest}-day longest streak; {total:,} contributions.', s)
+              else:
+                  s = re.sub(r'(<text x="30" y="109"[^>]*>)[^<]+(</text>)', rf'\g<1>{total:,}\g<2>', s, count=1)
+                  s = re.sub(r'[0-9,]+ contributions in the past year;', f'{total:,} contributions in the past year;', s)
+
+              p.write_text(s, encoding="utf-8")
+
+          for path in [
+              "profile/signal-field-wide-dark.svg",
+              "profile/signal-field-wide-light.svg",
+              "profile/activity-consistency-wide-dark.svg",
+              "profile/activity-consistency-wide-light.svg",
+          ]:
+              patch_card(path)
+          PY
+
       - name: Publish generated cards
         env:
           SIGNAL_DIR: ${{ steps.signal.outputs.ready-dir }}
