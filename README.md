@@ -157,7 +157,7 @@ Planned areas include:
 
 <div align="center">
 
-[![GitHub Streak](https://streak-stats.demolab.com/?user=eldqyqy2007&theme=github-dark-blue&hide_border=true&locale=en&timezone=Africa%2FCairo&date_format=j%2Fn%2FY)](https://github.com/eldqyqy2007)
+![GitHub Streak](./profile/streak.svg)
 
 </div>
 
