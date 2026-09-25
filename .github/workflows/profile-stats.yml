@@ -154,6 +154,78 @@ jobs:
           token: ${{ github.token }}
           profile: language-composition
 
+      - name: Refresh streak card while preserving its design
+        run: |
+          python - <<'PY'
+          import html, re, urllib.request
+          from datetime import datetime, timedelta
+          from zoneinfo import ZoneInfo
+
+          user = "eldqyqy2007"
+          cairo = ZoneInfo("Africa/Cairo")
+          now = datetime.now(cairo)
+          today = now.date()
+
+          req = urllib.request.Request(
+              f"https://github.com/users/{user}/contributions",
+              headers={"User-Agent": "github-profile-streak/1.0"},
+          )
+          with urllib.request.urlopen(req, timeout=30) as response:
+              page = response.read().decode("utf-8", "replace")
+
+          days = {}
+          cells = re.finditer(
+              r'<td\\b[^>]*\\bdata-date="([^"]+)"[^>]*\\bid="([^"]+)"[^>]*>',
+              page, re.I | re.S,
+          )
+          for m in cells:
+              day, cell_id = m.groups()
+              tip = re.search(
+                  r'<tool-tip\\b[^>]*\\bfor="' + re.escape(cell_id) + r'"[^>]*>(.*?)</tool-tip>',
+                  page, re.I | re.S,
+              )
+              count = 0
+              if tip:
+                  plain = html.unescape(re.sub(r"<[^>]+>", " ", tip.group(1)))
+                  cm = re.search(r"(\\d[\\d,]*)\\s+contributions?", plain, re.I)
+                  if cm:
+                      count = int(cm.group(1).replace(",", ""))
+              days[day] = count
+
+          if not days:
+              raise SystemExit("Could not read GitHub contribution calendar")
+
+          cursor = today
+          current = 0
+          if days.get(cursor.isoformat(), 0) == 0:
+              cursor -= timedelta(days=1)
+          while days.get(cursor.isoformat(), 0) > 0:
+              current += 1
+              cursor -= timedelta(days=1)
+
+          # Keep the original Streak Stats SVG design and all its values.
+          url = (
+              "https://streak-stats.demolab.com/?user=eldqyqy2007"
+              "&theme=github-dark-blue&hide_border=true&locale=en"
+              "&timezone=Africa%2FCairo&date_format=j%2Fn%2FY"
+          )
+          req = urllib.request.Request(url, headers={"User-Agent": "github-profile-streak/1.0"})
+          with urllib.request.urlopen(req, timeout=30) as response:
+              svg = response.read().decode("utf-8", "replace")
+
+          # Replace ONLY the number immediately preceding the Current Streak label.
+          pattern = re.compile(
+              r'(<text[^>]*>)(\\d+)(</text>\\s*<text[^>]*>\\s*Current Streak\\s*</text>)',
+              re.I | re.S,
+          )
+          svg, changed = pattern.subn(lambda m: m.group(1) + str(current) + m.group(3), svg, count=1)
+          if changed != 1:
+              raise SystemExit("Could not locate Current Streak value")
+
+          open("profile/streak.svg", "w", encoding="utf-8").write(svg)
+          print(f"Current Streak: {current}")
+          PY
+
       - name: Publish generated cards
         env:
           SIGNAL_DIR: ${{ steps.signal.outputs.ready-dir }}
