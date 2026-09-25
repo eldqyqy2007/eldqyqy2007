@@ -1,54 +1,3 @@
-name: Update profile stats
-
-on:
-  push:
-    branches: [main]
-    paths-ignore:
-      - "profile/**"
-  workflow_dispatch:
-  schedule:
-    - cron: "17 3 * * *"
-
-permissions:
-  contents: write
-
-concurrency:
-  group: update-profile-stats
-  cancel-in-progress: false
-
-jobs:
-  update:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd
-
-      - name: Generate self-hosted streak card
-        uses: zients/github-readme-streak-stats@v2
-        with:
-          options: user=${{ github.repository_owner }}&theme=dark&hide_border=true&locale=en&date_format=j/n/Y&disable_animations=true
-          path: profile/streak.svg
-          token: ${{ github.token }}
-
-      - uses: shinpr/github-profile-stats@49b5f7091182a45f3ef93923505b660c6da5f835
-        id: signal
-        with:
-          username: ${{ github.repository_owner }}
-          token: ${{ github.token }}
-          profile: signal-field
-
-      - uses: shinpr/github-profile-stats@49b5f7091182a45f3ef93923505b660c6da5f835
-        id: activity
-        with:
-          username: ${{ github.repository_owner }}
-          token: ${{ github.token }}
-          profile: activity-consistency
-
-      - uses: shinpr/github-profile-stats@49b5f7091182a45f3ef93923505b660c6da5f835
-        id: languages
-        with:
-          username: ${{ github.repository_owner }}
-          token: ${{ github.token }}
-          profile: language-composition
 
       - name: Sync contribution data with GitHub profile calendar
         run: |
@@ -159,6 +108,58 @@ jobs:
           ]:
               patch_card(path)
           PY
+
+name: Update profile stats
+
+on:
+  push:
+    branches: [main]
+    paths-ignore:
+      - "profile/**"
+  workflow_dispatch:
+  schedule:
+    - cron: "17 3 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-profile-stats
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd
+
+      - name: Generate self-hosted streak card
+        uses: zients/github-readme-streak-stats@v2
+        with:
+          options: user=${{ github.repository_owner }}&theme=dark&hide_border=true&locale=en&date_format=j/n/Y&disable_animations=true
+          path: profile/streak.svg
+          token: ${{ github.token }}
+
+      - uses: shinpr/github-profile-stats@49b5f7091182a45f3ef93923505b660c6da5f835
+        id: signal
+        with:
+          username: ${{ github.repository_owner }}
+          token: ${{ github.token }}
+          profile: signal-field
+
+      - uses: shinpr/github-profile-stats@49b5f7091182a45f3ef93923505b660c6da5f835
+        id: activity
+        with:
+          username: ${{ github.repository_owner }}
+          token: ${{ github.token }}
+          profile: activity-consistency
+
+      - uses: shinpr/github-profile-stats@49b5f7091182a45f3ef93923505b660c6da5f835
+        id: languages
+        with:
+          username: ${{ github.repository_owner }}
+          token: ${{ github.token }}
+          profile: language-composition
 
       - name: Publish generated cards
         env:
