@@ -2,7 +2,7 @@
 
 # 🛡️ Mohammed Eldqyqy
 
-### Offensive Security | Penetration Testing | Red Teaming
+### Offensive Security Engineer | Penetration Tester | bug hunter | Red teamer
 
 **Bug Hunter • Penetration Tester • Cybersecurity Engineer • Red Teamer**
 
