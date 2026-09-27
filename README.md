@@ -92,6 +92,7 @@ LLM application testing • Prompt injection testing • AI red teaming • API 
 - **eJPTv2** — Hossam Shady / RedNexus Academy
 - **Red Teaming Diploma** — Hossam Shady / RedNexus Academy
 - **Advanced Bug Bounty Secrets** — Hossam Shady / RedNexus Academy
+- **CRTP Training** — Hossam Shady / RedNexus Academy
 - **OSCP Training** — Hossam Shady / RedNexus Academy
 - **AI Red Teaming** — Hossam Shady / RedNexus Academy
 
