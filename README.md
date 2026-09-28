@@ -133,7 +133,7 @@ The tool combines:
 
 **Tech Stack:** Python • Selenium • BeautifulSoup
 
-[![View Project](https://img.shields.io/badge/VIEW_PROJECT-24292F?style=for-the-badge&logo=github&logoColor=white&labelColor=555)](https://github.com/eldqyqy2007/xss-web-scanner)
+[![View Project](https://img.shields.io/badge/View_Project-0D1117?style=for-the-badge&logo=github&logoColor=white)](https://github.com/eldqyqy2007/xss-web-scanner)
 
 ---
 
