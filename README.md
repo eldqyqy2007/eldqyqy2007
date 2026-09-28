@@ -2,10 +2,10 @@
 
 # <img src="./profile/icons/about.svg" width="32" height="32" align="absmiddle"> Mohammed Eldqyqy
 
-### Offensive Security Engineer | Penetration Tester | bug hunter | Red teamer
+### Penetration Tester | Bug Hunter | Offensive Security engineer
 
 
-Web Application Pentest • API Pentest • Mobile Application Pentest • Active Directory Pentest • Network Pentest • AI/LLM Pentest
+Web • API • Mobile • AD • Network • AI/LLM Pentest
 
 [![GitHub](https://img.shields.io/badge/GitHub-0D1117?style=for-the-badge&logo=github&logoColor=white)](https://github.com/eldqyqy2007)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0D1117?style=for-the-badge&logo=linkedin&logoColor=0A66C2)](https://www.linkedin.com/in/mohammed-eldqyqy)
