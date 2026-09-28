@@ -4,7 +4,6 @@
 
 ### Offensive Security Engineer | Penetration Tester | bug hunter | Red teamer
 
-**Bug Hunter • Penetration Tester • Cybersecurity Engineer • Red Teamer**
 
 Web Application Security • API Security • Mobile Application Security • Active Directory • Network Security • AI/LLM Security
 
