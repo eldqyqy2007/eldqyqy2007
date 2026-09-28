@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🛡️ Mohammed Eldqyqy
+# <img src="./profile/icons/about.svg" width="32" height="32" align="absmiddle"> Mohammed Eldqyqy
 
 ### Offensive Security Engineer | Penetration Tester | bug hunter | Red teamer
 
@@ -16,7 +16,7 @@ Web Application Security • API Security • Mobile Application Security • Ac
 
 ---
 
-## 👋 About Me
+## <img src="./profile/icons/about.svg" width="25" height="25" align="absmiddle"> About Me
 
 I'm Mohammed Eldqyqy, an offensive-security focused learner building practical skills in penetration testing, bug hunting, red teaming, and security research.
 
@@ -26,22 +26,22 @@ My current focus is on **Web, API, Mobile, Active Directory, Network, and AI/LLM
 
 ---
 
-## 🎯 Offensive Security Focus
+## <img src="./profile/icons/focus.svg" width="25" height="25" align="absmiddle"> Offensive Security Focus
 
 | Domain | Focus |
 |---|---|
-| 🌐 Web Security | Web application pentesting, vulnerability research, bug bounty |
-| 🔌 API Security | REST/GraphQL API testing, authentication and authorization |
-| 📱 Mobile Security | Android application security, dynamic/static analysis |
-| 🏢 Active Directory | Windows/AD enumeration, attacks, privilege escalation |
-| 🌐 Network Security | Network enumeration, service exploitation, traffic analysis |
-| 🔴 Red Teaming | Adversary simulation, C2, Windows tradecraft |
-| 🤖 AI/LLM Security | Prompt injection, LLM application testing, AI red teaming |
-| 🔬 Security Research | Security tooling, vulnerability research, automation |
+| <img src="./profile/icons/web.svg" width="18"> **Web Security** | Web application pentesting, vulnerability research, bug bounty |
+| <img src="./profile/icons/api.svg" width="18"> **API Security** | REST/GraphQL API testing, authentication and authorization |
+| <img src="./profile/icons/mobile.svg" width="18"> **Mobile Security** | Android application security, dynamic/static analysis |
+| <img src="./profile/icons/ad.svg" width="18"> **Active Directory** | Windows/AD enumeration, attacks, privilege escalation |
+| <img src="./profile/icons/network.svg" width="18"> **Network Security** | Network enumeration, service exploitation, traffic analysis |
+| <img src="./profile/icons/redteam.svg" width="18"> **Red Teaming** | Adversary simulation, C2, Windows tradecraft |
+| <img src="./profile/icons/ai.svg" width="18"> **AI/LLM Security** | Prompt injection, LLM application testing, AI red teaming |
+| <img src="./profile/icons/research.svg" width="18"> **Security Research** | Security tooling, vulnerability research, automation |
 
 ---
 
-## 💻 Languages & Technologies
+## <img src="./profile/icons/code.svg" width="25" height="25" align="absmiddle"> Languages & Technologies
 
 [![Python](https://skillicons.dev/icons?i=python)](https://www.python.org/)
 [![Bash](https://skillicons.dev/icons?i=bash)](https://www.gnu.org/software/bash/)
@@ -57,35 +57,35 @@ My current focus is on **Web, API, Mobile, Active Directory, Network, and AI/LLM
 
 ---
 
-## 🧰 Security Tooling
+## <img src="./profile/icons/tools.svg" width="25" height="25" align="absmiddle"> Security Tooling
 
-### 🌐 Web & API
+### <img src="./profile/icons/web.svg" width="19" align="absmiddle"> Web & API
 Burp Suite • OWASP ZAP • Nuclei • ffuf • Gobuster • SQLMap • Postman
 
-### 🔎 Recon & Network
+### <img src="./profile/icons/network.svg" width="19" align="absmiddle"> Recon & Network
 Nmap • Masscan • Amass • Subfinder • httpx • Wireshark • Netcat
 
-### 🏢 Active Directory & Windows
+### <img src="./profile/icons/ad.svg" width="19" align="absmiddle"> Active Directory & Windows
 BloodHound • Impacket • NetExec • Rubeus • Mimikatz • Responder
 
-### 🔴 Red Team & Exploitation
+### <img src="./profile/icons/redteam.svg" width="19" align="absmiddle"> Red Team & Exploitation
 Metasploit • Sliver • Cobalt Strike • PowerShell • Empire
 
-### 📱 Mobile Security
+### <img src="./profile/icons/mobile.svg" width="19" align="absmiddle"> Mobile Security
 MobSF • Frida • Objection • ADB • JADX
 
-### 🤖 AI / LLM Security
+### <img src="./profile/icons/ai.svg" width="19" align="absmiddle"> AI / LLM Security
 LLM application testing • Prompt injection testing • AI red teaming • API security testing
 
 ---
 
-## 🏅 Certifications
+## <img src="./profile/icons/certifications.svg" width="25" height="25" align="absmiddle"> Certifications
 
 > No professional cybersecurity certifications earned yet.
 
 ---
 
-## 📚 Security Training
+## <img src="./profile/icons/training.svg" width="25" height="25" align="absmiddle"> Security Training
 
 > **Training / learning completed or studied — not presented as certifications unless officially earned.**
 
@@ -100,7 +100,7 @@ LLM application testing • Prompt injection testing • AI red teaming • API 
 
 ---
 
-## 🧪 Labs & Practice
+## <img src="./profile/icons/labs.svg" width="25" height="25" align="absmiddle"> Labs & Practice
 
 Currently building practical experience through:
 
@@ -114,24 +114,24 @@ Currently building practical experience through:
 
 ---
 
-## 🚀 Projects
+## <img src="./profile/icons/projects.svg" width="25" height="25" align="absmiddle"> Projects
 
 I'm building a cybersecurity-focused portfolio around practical security tools, automation, research, and write-ups.
 
-### 🛡️ XSS Web Scanner
+### <img src="./profile/icons/project.svg" width="21" height="21" align="absmiddle"> XSS Web Scanner
 
 **Automated web application security testing tool for discovering, validating, and documenting Cross-Site Scripting (XSS) vulnerabilities.**
 
 The tool combines:
 
-- 🔎 Automated target reconnaissance and crawling
-- 🌐 URL parameter and HTML form discovery
-- 🧪 Automated XSS payload testing
-- ⚡ Dynamic JavaScript execution with Selenium
-- ✅ Exploitation validation
-- 📸 Evidence collection
-- 🔗 Advanced attack-chain execution
-- 📄 Automated security assessment reporting
+-  Automated target reconnaissance and crawling
+-  URL parameter and HTML form discovery
+-  Automated XSS payload testing
+-  Dynamic JavaScript execution with Selenium
+-  Exploitation validation
+-  Evidence collection
+-  Advanced attack-chain execution
+-  Automated security assessment reporting
 
 **Tech Stack:** Python • Selenium • BeautifulSoup
 
@@ -142,7 +142,7 @@ The tool combines:
 More cybersecurity projects, security research, automation tools, and write-ups will be added as the portfolio grows.
 ---
 
-## 📊 GitHub Analytics
+## <img src="./profile/icons/analytics.svg" width="25" height="25" align="absmiddle"> GitHub Analytics
 
 <div align="center">
 
@@ -155,7 +155,7 @@ More cybersecurity projects, security research, automation tools, and write-ups 
 
 ---
 
-## 🏆 GitHub Highlights
+## <img src="./profile/icons/highlights.svg" width="25" height="25" align="absmiddle"> GitHub Highlights
 
 <div align="center">
 
@@ -167,7 +167,7 @@ More cybersecurity projects, security research, automation tools, and write-ups 
 
 ---
 
-## 🔥 Contribution Activity & Streak
+## <img src="./profile/icons/activity.svg" width="25" height="25" align="absmiddle"> Contribution Activity & Streak
 
 <div align="center">
 
@@ -188,7 +188,7 @@ More cybersecurity projects, security research, automation tools, and write-ups 
 
 ---
 
-## 🧠 Language Composition
+## <img src="./profile/icons/languages.svg" width="25" height="25" align="absmiddle"> Language Composition
 
 <div align="center">
 
@@ -201,7 +201,7 @@ More cybersecurity projects, security research, automation tools, and write-ups 
 
 ---
 
-## 📫 Contact With Me
+## <img src="./profile/icons/contact.svg" width="25" height="25" align="absmiddle"> Contact With Me
 
 <div align="center">
 
