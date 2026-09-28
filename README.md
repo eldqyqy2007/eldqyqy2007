@@ -37,7 +37,7 @@ My current focus is on **Web, API, Mobile, Active Directory, Network, and AI/LLM
 | 🌐 Network Security | Network enumeration, service exploitation, traffic analysis |
 | 🔴 Red Teaming | Adversary simulation, C2, Windows tradecraft |
 | 🤖 AI/LLM Security | Prompt injection, LLM application testing, AI red teaming |
-| 🔬 Research | Reverse engineering, exploit development, security tooling |
+| 🔬 Security Research | Security tooling, vulnerability research, automation |
 
 ---
 
@@ -71,9 +71,6 @@ BloodHound • Impacket • NetExec • Rubeus • Mimikatz • Responder
 ### 🔴 Red Team & Exploitation
 Metasploit • Sliver • Cobalt Strike • PowerShell • Empire
 
-### 🔬 Reverse Engineering
-Ghidra • IDA • x64dbg • WinDbg • PE-bear
-
 ### 📱 Mobile Security
 MobSF • Frida • Objection • ADB • JADX
 
@@ -82,7 +79,13 @@ LLM application testing • Prompt injection testing • AI red teaming • API 
 
 ---
 
-## 📚 Training & Learning
+## 🏅 Certifications
+
+> No professional cybersecurity certifications earned yet.
+
+---
+
+## 📚 Security Training
 
 > **Training / learning completed or studied — not presented as certifications unless officially earned.**
 
