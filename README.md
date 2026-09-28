@@ -114,19 +114,30 @@ Currently building practical experience through:
 
 ## 🚀 Projects
 
-I'm gradually building a cybersecurity-focused portfolio around practical tools, automation, research, and write-ups.
+I'm building a cybersecurity-focused portfolio around practical security tools, automation, research, and write-ups.
 
-Planned areas include:
+### 🛡️ XSS Web Scanner
 
-- 🔎 Recon & enumeration tooling
-- 🌐 Web pentesting utilities
-- 🔌 API security tooling
-- 🏢 Active Directory tooling
-- 🌐 Network pentesting utilities
-- 📱 Mobile security tooling
-- 🤖 AI/LLM security tooling
-- 📝 Security research & write-ups
+**Automated web application security testing tool for discovering, validating, and documenting Cross-Site Scripting (XSS) vulnerabilities.**
 
+The tool combines:
+
+- 🔎 Automated target reconnaissance and crawling
+- 🌐 URL parameter and HTML form discovery
+- 🧪 Automated XSS payload testing
+- ⚡ Dynamic JavaScript execution with Selenium
+- ✅ Exploitation validation
+- 📸 Evidence collection
+- 🔗 Advanced attack-chain execution
+- 📄 Automated security assessment reporting
+
+**Tech Stack:** Python • Selenium • BeautifulSoup
+
+[![View Project](https://img.shields.io/badge/View_Project-0D1117?style=for-the-badge&logo=github&logoColor=white)](https://github.com/eldqyqy2007/xss-web-scanner)
+
+---
+
+More cybersecurity projects, security research, automation tools, and write-ups will be added as the portfolio grows.
 ---
 
 ## 📊 GitHub Analytics
