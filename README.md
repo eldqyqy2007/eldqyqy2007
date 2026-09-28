@@ -16,7 +16,7 @@ Web Application Security • API Security • Mobile Application Security • Ac
 
 ---
 
-## <img src="./profile/icons/about.svg" width="25" height="25" align="absmiddle"> About Me
+## <img src="./profile/icons/about-me.svg" width="25" height="25" align="absmiddle"> About Me
 
 I'm Mohammed Eldqyqy, an offensive-security focused learner building practical skills in penetration testing, bug hunting, red teaming, and security research.
 
@@ -124,14 +124,21 @@ I'm building a cybersecurity-focused portfolio around practical security tools, 
 
 The tool combines:
 
--  Automated target reconnaissance and crawling
--  URL parameter and HTML form discovery
--  Automated XSS payload testing
--  Dynamic JavaScript execution with Selenium
--  Exploitation validation
--  Evidence collection
--  Advanced attack-chain execution
--  Automated security assessment reporting
+<img src="./profile/icons/recon.svg" width="17" align="absmiddle"> Automated target reconnaissance and crawling
+
+<img src="./profile/icons/web.svg" width="17" align="absmiddle"> URL parameter and HTML form discovery
+
+<img src="./profile/icons/payload.svg" width="17" align="absmiddle"> Automated XSS payload testing
+
+<img src="./profile/icons/browser.svg" width="17" align="absmiddle"> Dynamic JavaScript execution with Selenium
+
+<img src="./profile/icons/validation.svg" width="17" align="absmiddle"> Exploitation validation
+
+<img src="./profile/icons/evidence.svg" width="17" align="absmiddle"> Evidence collection
+
+<img src="./profile/icons/chain.svg" width="17" align="absmiddle"> Advanced attack-chain execution
+
+<img src="./profile/icons/report.svg" width="17" align="absmiddle"> Automated security assessment reporting
 
 **Tech Stack:** Python • Selenium • BeautifulSoup
 
