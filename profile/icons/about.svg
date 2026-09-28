@@ -3,7 +3,7 @@
 
   <!-- Shield -->
   <path
-    d="M16 3.5L26 7V14.5C26 21.2 21.8 26.2 16 28.5C10.2 26.2 6 21.2 6 14.5V7L16 3.5Z"
+    d="M16 3.5L26 7.5V14.5C26 21 21.8 25.5 16 28C10.2 25.5 6 21 6 14.5V7.5L16 3.5Z"
     stroke="#00D9FF"
     stroke-width="2"
     stroke-linejoin="round"
@@ -11,17 +11,17 @@
 
   <!-- Terminal -->
   <path
-    d="M11 13L14.5 16L11 19"
+    d="M11.5 13.5L14.5 16L11.5 18.5"
     stroke="#FFFFFF"
-    stroke-width="2"
+    stroke-width="1.8"
     stroke-linecap="round"
     stroke-linejoin="round"
   />
 
   <path
-    d="M16.5 19H21"
+    d="M16.5 18.5H20.5"
     stroke="#FFFFFF"
-    stroke-width="2"
+    stroke-width="1.8"
     stroke-linecap="round"
   />
 
