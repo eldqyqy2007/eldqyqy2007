@@ -20,7 +20,7 @@ Web • API • Mobile • AD • Network • AI/LLM Pentest
 
 I'm Mohammed Eldqyqy, an offensive-security focused learner building practical skills in penetration testing, bug hunting, red teaming, and security research.
 
-My current focus is on **Web, API, Mobile, Active Directory, Network, and AI/LLM security** while continuously improving my programming, operating-system, networking, and exploitation skills.
+My current focus is on **Web, API, Mobile, Active Directory, Network, and AI/LLM Pentest** while continuously improving my programming, operating-system, networking, and exploitation skills.
 
 > My GitHub is being transitioned toward cybersecurity. Some older repositories are not security-related and were created before my current offensive-security focus.
 
