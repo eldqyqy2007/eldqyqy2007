@@ -59,7 +59,7 @@ My current focus is on **Web, API, Mobile, Active Directory, Network, and AI/LLM
 ## <img src="./profile/icons/tools.svg" width="25" height="25" align="absmiddle"> Security Tooling
 
 ### <img src="./profile/icons/web.svg" width="19" align="absmiddle"> Web & API
-Burp Suite • OWASP ZAP • Nuclei • ffuf • Gobuster • SQLMap • Postman
+Burp Suite • Nuclei • ffuf • Gobuster • SQLMap • Postman
 
 ### <img src="./profile/icons/network.svg" width="19" align="absmiddle"> Recon & Network
 Nmap • Masscan • Amass • Subfinder • httpx • Wireshark • Netcat
