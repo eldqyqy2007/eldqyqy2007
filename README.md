@@ -110,7 +110,6 @@ Currently building practical experience through:
 - Network penetration testing
 - Red-team tradecraft
 - AI/LLM security testing
-- Security automation with Python and Bash
 
 ---
 
