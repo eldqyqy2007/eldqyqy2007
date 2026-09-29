@@ -35,6 +35,7 @@ My current focus is on **Web, API, Mobile, Active Directory, Network, and AI/LLM
 | <img src="./profile/icons/mobile.svg" width="18"> **Mobile Security** | Android application security, dynamic/static analysis |
 | <img src="./profile/icons/ad.svg" width="18"> **Active Directory** | Windows/AD enumeration, attacks, privilege escalation |
 | <img src="./profile/icons/network.svg" width="18"> **Network Security** | Network enumeration, service exploitation, traffic analysis |
+| <img src="./profile/icons/redteam.svg" width="18"> **Red Teaming** | Adversary simulation, C2, Windows tradecraft |
 | <img src="./profile/icons/ai.svg" width="18"> **AI/LLM Security** | Prompt injection, LLM application testing, AI red teaming |
 | <img src="./profile/icons/research.svg" width="18"> **Security Research** | Security tooling, vulnerability research, automation |
 
