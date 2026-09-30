@@ -8,7 +8,7 @@
 Web • API • Mobile • AD • Network • AI/LLM Pentest
 
 [![GitHub](https://img.shields.io/badge/GitHub-0D1117?style=for-the-badge&logo=github&logoColor=white)](https://github.com/eldqyqy2007)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0D1117?style=for-the-badge&logoColor=white&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgZmlsbD0id2hpdGUiPjxwYXRoIGQ9Ik0zLjU4IDUuMjY2YS44Ny44NyAwIDEgMSAwLTEuNzQgLjg3Ljg3IDAgMCAxIDAgMS43NHpNMi44IDYuODhoMS41NXY1LjU1SDIuOFY2Ljg4em0yLjQ3IDBoMS40OHYtLjc2aC4wMmMuMjEtLjQxLjczLS44NyAxLjQ5LS44NyAxLjYgMCAxLjkgMS4wNSAxLjkgMi40MiAwIDEuNTh2My4xNmgLTEuNTV2LTIuOGMwLS42Ny0uMDEtMS41My0uOTMtMS41My0uOTMgMC0xLjA3LjcyLTEuMDcgMS40OHYyLjg1SDUuMjdaIi8+PC9zdmc%3D)](https://www.linkedin.com/in/mohammed-eldqyqy)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0D1117?style=for-the-badge%26logo=linkedin%26logoColor=white%26v=2)](https://www.linkedin.com/in/mohammed-eldqyqy)
 [![X](https://img.shields.io/badge/X-0D1117?style=for-the-badge&logo=x&logoColor=white)](https://x.com/eldqyqy)
 [![Facebook](https://img.shields.io/badge/Facebook-0D1117?style=for-the-badge&logo=facebook&logoColor=1877F2)](https://www.facebook.com/eldqyqy)
 [![Instagram](https://img.shields.io/badge/Instagram-0D1117?style=for-the-badge&logo=instagram&logoColor=E4405F)](https://www.instagram.com/eldqyqy)
@@ -214,7 +214,7 @@ More cybersecurity projects, security research, automation tools, and write-ups 
 <div align="center">
 
 [![GitHub](https://img.shields.io/badge/GitHub-0D1117?style=for-the-badge&logo=github&logoColor=white)](https://github.com/eldqyqy2007)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0D1117?style=for-the-badge&logoColor=white&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgZmlsbD0id2hpdGUiPjxwYXRoIGQ9Ik0zLjU4IDUuMjY2YS44Ny44NyAwIDEgMSAwLTEuNzQgLjg3Ljg3IDAgMCAxIDAgMS43NHpNMi44IDYuODhoMS41NXY1LjU1SDIuOFY2Ljg4em0yLjQ3IDBoMS40OHYtLjc2aC4wMmMuMjEtLjQxLjczLS44NyAxLjQ5LS44NyAxLjYgMCAxLjkgMS4wNSAxLjkgMi40MiAwIDEuNTh2My4xNmgLTEuNTV2LTIuOGMwLS42Ny0uMDEtMS41My0uOTMtMS41My0uOTMgMC0xLjA3LjcyLTEuMDcgMS40OHYyLjg1SDUuMjdaIi8+PC9zdmc%3D)](https://www.linkedin.com/in/mohammed-eldqyqy)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0D1117?style=for-the-badge%26logo=linkedin%26logoColor=white%26v=2)](https://www.linkedin.com/in/mohammed-eldqyqy)
 [![X](https://img.shields.io/badge/X-0D1117?style=for-the-badge&logo=x&logoColor=white)](https://x.com/eldqyqy)
 [![Facebook](https://img.shields.io/badge/Facebook-0D1117?style=for-the-badge&logo=facebook&logoColor=1877F2)](https://www.facebook.com/eldqyqy)
 [![Instagram](https://img.shields.io/badge/Instagram-0D1117?style=for-the-badge&logo=instagram&logoColor=E4405F)](https://www.instagram.com/eldqyqy)
