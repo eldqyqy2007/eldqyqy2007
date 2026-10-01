@@ -149,6 +149,30 @@ The tool combines:
 
 ---
 
+### <img src="./profile/icons/project.svg" width="21" height="21" align="absmiddle"> NextDNS Sentinel
+
+**Local-first NextDNS monitoring utility for detecting custom denylist matches, tracking activity, and delivering actionable security alerts.**
+
+The tool combines:
+
+<img src="./profile/icons/network.svg" width="17" align="absmiddle"> Multi-profile NextDNS log monitoring with persistent API polling checkpoints
+
+<img src="./profile/icons/ad.svg" width="17" align="absmiddle"> Custom denylist matching with exact, parent-domain, and wildcard support
+
+<img src="./profile/icons/research.svg" width="17" align="absmiddle"> Local SQLite persistence for profiles, monitored domains, and alert state
+
+<img src="./profile/icons/report.svg" width="17" align="absmiddle"> Telegram security alerts with cooldown and retry handling
+
+<img src="./profile/icons/web.svg" width="17" align="absmiddle"> Local web dashboard for monitoring status, detections, and statistics
+
+<img src="./profile/icons/validation.svg" width="17" align="absmiddle"> Monitoring health and error tracking with persistent runtime state
+
+**Tech Stack:** Python • SQLite • NextDNS API • Telegram Bot API
+
+[![View Project](https://img.shields.io/badge/View_Project-0D1117?style=for-the-badge&logo=github&logoColor=white)](https://github.com/eldqyqy2007/nextdns-sentinel)
+
+---
+
 More cybersecurity projects, security research, automation tools, and write-ups will be added as the portfolio grows.
 ---
 
