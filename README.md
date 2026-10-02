@@ -195,7 +195,7 @@ More cybersecurity projects, security research, automation tools, and write-ups 
 
 [![GitHub Profile](https://img.shields.io/badge/View_GitHub_Profile-0D1117?style=for-the-badge&logo=github&logoColor=white)](https://github.com/eldqyqy2007)
 [![Repositories](https://img.shields.io/badge/Repositories-0D1117?style=for-the-badge&logo=github&logoColor=white)](https://github.com/eldqyqy2007?tab=repositories)
-[![Achievements](https://img.shields.io/badge/Achievements-0D1117?style=for-the-badge&logo=github&logoColor=white)](https://github.com/eldqyqy2007?tab=achievements)
+[![Achievements](https://img.shields.io/badge/Achievements-0D1117?style=for-the-badge&logo=github&logoColor=white)](https://github.com/eldqyqy2007)
 
 </div>
 
