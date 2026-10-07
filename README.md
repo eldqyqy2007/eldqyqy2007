@@ -242,6 +242,10 @@ More cybersecurity projects, security research, automation tools, and write-ups 
 [![GitHub](https://img.shields.io/badge/GitHub-0D1117?style=for-the-badge&logo=github&logoColor=white)](https://github.com/eldqyqy2007)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0D1117?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mohammed-eldqyqy)
 [![X](https://img.shields.io/badge/X-0D1117?style=for-the-badge&logo=x&logoColor=white)](https://x.com/eldqyqy)
+[![Facebook](https://img.shields.io/badge/Facebook-0D1117?style=for-the-badge&logo=facebook&logoColor=1877F2)](https://www.facebook.com/eldqyqy)
+[![Instagram](https://img.shields.io/badge/Instagram-0D1117?style=for-the-badge&logo=instagram&logoColor=E4405F)](https://www.instagram.com/eldqyqy)
+[![Discord](https://img.shields.io/badge/Discord-0D1117?style=for-the-badge&logo=discord&logoColor=5865F2)](https://discord.com/users/645903046668451852)
+[![Reddit](https://img.shields.io/badge/Reddit-0D1117?style=for-the-badge&logo=reddit&logoColor=FF4500)](https://www.reddit.com/user/eldqyqy)
 [![Email](https://img.shields.io/badge/Email-0D1117?style=for-the-badge&logo=gmail&logoColor=EA4335)](mailto:eldqyqy170@gmail.com)
 
 </div>
